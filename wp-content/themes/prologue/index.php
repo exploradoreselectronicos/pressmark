@@ -72,16 +72,16 @@ if( have_posts( ) ) {
 	<h3><a href="<?php echo post_custom("pressmark-url"); ?>"><?php echo $post->post_title ?></a></h3>
 	<h4>
 		<span class="meta">
-			<?php the_time( "h:i:s a" ); ?> on <?php the_time( "F j, Y" ); ?> |
+			<?php the_time( "g:i a" ); ?>, <?php the_time( "l, j \d\e F \d\e Y" ); ?> |
 			<?php comments_popup_link( __( '0' ), __( '1' ), __( '%' ) ); ?> |
 			<?php edit_post_link( __( 'e' ) ); ?>
 			<br />
-			<?php the_author_posts_link( ); ?><?php the_tags( __( ' | Tags: ' ), ', ', ' ' ); ?>
+			<?php the_author_posts_link( ); ?><?php the_tags( __( ' en: ' ), ', ', ' ' ); ?>
 			<?php if($post->post_status == 'private') echo " | <span class='private'>privado</span>"?>
 		</span>
 	</h4>
 	<div class="postcontent">
-		<?php the_content( __( '(More ...)' ) ); ?>
+		<?php the_content( __( '(Más ...)' ) ); ?>
 	</div> <!-- // postcontent -->
 	<div class="bottom_of_entry">&nbsp;</div>
 </li>
