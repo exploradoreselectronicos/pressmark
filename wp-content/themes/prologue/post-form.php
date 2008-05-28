@@ -19,12 +19,12 @@ $first_name		= attribute_escape( $user->first_name );
 		<label for="posttext">Descripción:</label>
 		<textarea name="posttext" id="posttext" rows="3" cols="60" value="<?php echo $_GET['posttext']; ?>"></textarea>
 	
-		<label for="tags">Tags</label>
+		<label for="tags">Etiquetas:</label>
 		<input type="text" name="tags" id="tags" autocomplete="off" />
 		
-		<input type="radio" name="status" value="publish" checked="checked"> Public
-		<input type="radio" name="status" value="private"> Private
+		<input type="radio" name="status" value="publish" checked="checked"> Público
+		<input type="radio" name="status" value="private"> Privado
 		
-		<input id="submit" type="submit" value="Post it" />
+		<input id="submit" type="submit" value="Postéalo!" />
 	</form>
 </div> <!-- // postbox -->

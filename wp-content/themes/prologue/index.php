@@ -77,7 +77,7 @@ if( have_posts( ) ) {
 			<?php edit_post_link( __( 'e' ) ); ?>
 			<br />
 			<?php the_author_posts_link( ); ?><?php the_tags( __( ' | Tags: ' ), ', ', ' ' ); ?>
-			<?php if($post->post_status == 'private') echo " | <span class='private'>private</span>"?>
+			<?php if($post->post_status == 'private') echo " | <span class='private'>privado</span>"?>
 		</span>
 	</h4>
 	<div class="postcontent">
