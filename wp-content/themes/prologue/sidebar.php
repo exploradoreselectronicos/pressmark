@@ -15,9 +15,9 @@
 			<p>
 				<?php
 				if ( ! is_user_logged_in() )
-					echo '<a href="' . get_option('siteurl') . '/wp-login.php?redirect_to=' . urlencode(get_option('siteurl')) . '">' . __('Log in') . '</a>';
+					echo '<a href="' . get_option('siteurl') . '/wp-login.php?redirect_to=' . urlencode(get_option('siteurl')) . '">' . __('Identifícate') . '</a>';
 				else
-					echo '<a href="' . get_option('siteurl') . '/wp-login.php?action=logout">' . __('Log out') . '</a>';
+					echo '<a href="' . get_option('siteurl') . '/wp-login.php?action=logout">' . __('Salir') . '</a>';
 				?>
 			</p>
 		</li>
