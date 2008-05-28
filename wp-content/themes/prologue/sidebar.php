@@ -25,8 +25,7 @@
 		<?php if ( is_user_logged_in() ) { ?>
 		<li class="bookmarlet">
 			<p>Arrastra este enlace hasta tus favoritos o a la barra del navegador y pulsa el botón que se genere cuando estés navegando en una página que quieras compartir<br>
-			<a href="javascript:Q='';if(navigator.userAgent.indexOf('Safari')>=0){Q=getSelection();}else{Q=document.selection?document.selection.createRange().text:document.getSelection();}location.href='<?php echo get_option('siteurl');?>/index.php?posttext='+encodeURIComponent(Q)+'&posturl='+encodeURIComponent(location.href)+'&posttitle='+encodeURIComponent(document.title);">
-			Press it</a>
+			<a href="javascript:Q='';if(navigator.userAgent.indexOf('Safari')>=0){Q=getSelection();}else{Q=document.selection?document.selection.createRange().text:document.getSelection();}location.href='<?php echo get_option('siteurl');?>/index.php?posttext='+encodeURIComponent(Q)+'&posturl='+encodeURIComponent(location.href)+'&posttitle='+encodeURIComponent(document.title);">Compártelo!</a>
 			</p>
 		</li>
 		<?php } ?>

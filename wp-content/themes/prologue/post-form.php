@@ -25,6 +25,6 @@ $first_name		= attribute_escape( $user->first_name );
 		<input type="radio" name="status" value="publish" checked="checked"> Público
 		<input type="radio" name="status" value="private"> Privado
 		
-		<input id="submit" type="submit" value="Postéalo!" />
+		<input id="submit" type="submit" value="Postéalo!" align="right" />
 	</form>
 </div> <!-- // postbox -->
