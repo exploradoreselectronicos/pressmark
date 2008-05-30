@@ -28,6 +28,11 @@
 			<a href="javascript:Q='';if(navigator.userAgent.indexOf('Safari')>=0){Q=getSelection();}else{Q=document.selection?document.selection.createRange().text:document.getSelection();}location.href='<?php echo get_option('siteurl');?>/index.php?posttext='+encodeURIComponent(Q)+'&posturl='+encodeURIComponent(location.href)+'&posttitle='+encodeURIComponent(document.title);">Compártelo!</a>
 			</p>
 		</li>
+		
+<li class="bookmarlet">
+<p>Puedes descargar la <a href="http://exploradoreselectronicos.net/pressmark.tar.gz">última versión de Pressmark en formato gzip</a> o <a href="http://github.com/exploradoreselectronicos/pressmark/tree/master">hacer un <em>fork</em> desde github</a> para abrir tu propia línea de desarrollo</p>
+</li>		
+		
 		<?php } ?>
 	</ul>
 </div> <!-- // sidebar -->
