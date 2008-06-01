@@ -4,7 +4,7 @@
 	<head profile="http://gmpg.org/xfn/11">
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
-		<meta name="generator" content="WordPress.com" /> 
+		<meta name="generator" content="Bluefish 1.0.7"/> 
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -12,6 +12,23 @@
 		<?php wp_head(); ?>
 	</head>
 <body>
+
+
+<!-- Piwik -->
+<a href="http://piwik.org" title="Web analytics" onclick="window.open(this.href);return(false);">
+<script language="javascript" src="http://www.exploradoreselectronicos.net/piwik/piwik.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+piwik_action_name = '';
+piwik_idsite = 1;
+piwik_url = 'http://www.exploradoreselectronicos.net/piwik/piwik.php';
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+//-->
+</script><object>
+<noscript><p>Web analytics <img src="http://www.exploradoreselectronicos.net/piwik/piwik.php" style="border:0" alt="piwik"/></p>
+</noscript></object></a>
+<!-- /Piwik --> 
+
 
 <div id="wrapper">
 
