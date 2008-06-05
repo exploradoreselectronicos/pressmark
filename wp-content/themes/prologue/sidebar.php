@@ -3,7 +3,7 @@
 		<li><?php wp_tag_cloud('smallest=4&largest=14&number=500'); ?></li>
 		
 		<li>
-			<?php user_cloud(authors); ?>
+			<?php user_cloud(2); ?>
 			<br clear='left'>
 		</li>
 		
