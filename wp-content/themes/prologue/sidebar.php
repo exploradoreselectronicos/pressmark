@@ -2,7 +2,7 @@
 	<ul>
 	
 <li class="bookmarlet">
-<strong>Aviso</strong>: Sólo los miembros de alguna de las redes de <a href="http://www.exploradoreselectronicos.net">Exploradores Electrónicos</a> pueden postear enlaces, aunque <strong>cualquiera</strong> puede dejar comentarios creándose un usuario en el sitio con su <a href="http://www.exploradoreselectronicos.net/openid">OpenID</a>. Si eres parte de EE.EE. y no eres todavía usuario, símplemente créate un usuario y avisa en el <a href="http://www.exploradoreselectronicos.net/newsgroup">newsgroup</a> para que otro compañero aumente tus <em>poderes</em>
+<small><strong>Aviso</strong>: Sólo los miembros de alguna de las redes de <a href="http://www.exploradoreselectronicos.net">Exploradores Electrónicos</a> pueden postear enlaces, aunque <strong>cualquiera</strong> puede dejar comentarios creándose un usuario en el sitio con su <a href="http://www.exploradoreselectronicos.net/openid">OpenID</a>. Si eres parte de EE.EE. y no eres todavía usuario, símplemente créate un usuario y avisa en el <a href="http://www.exploradoreselectronicos.net/newsgroup">newsgroup</a> para que otro compañero aumente tus <em>poderes</em></small>
 </li>	
 	
 		<li><?php wp_tag_cloud('smallest=4&largest=14&number=500'); ?></li>
@@ -12,9 +12,9 @@
 			<br clear='left'>
 		</li>
 		
-		<!-- <li>
+	<li>
 			<?php wp_widget_recent_comments(array()); ?>
-		</li> -->
+		</li>
 		
 		<li class="credits">
 			<p>
