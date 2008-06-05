@@ -208,7 +208,7 @@ function user_cloud() {
 	
 	foreach ( (array) $authors as $author ) {
 		$author = get_userdata( $author->ID );
-		$level = get_userdata ( $author->user_level );
+		$level = ($author->user_level);
 		
 		echo $level.'<a href="' . get_author_posts_url($author->ID, $author->user_nicename) . '" title="' . sprintf(__("Posts by %s"), attribute_escape($author->display_name)) . '">';
 		echo prologue_get_avatar( $author->ID, $author->user_email, 48 )."</a>";
